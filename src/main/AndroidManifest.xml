@@ -3,7 +3,9 @@
     package="com.example.listagemdealunos"
     android:versionCode="1"
     android:versionName="1.0" >
-
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="19" />
@@ -30,5 +32,5 @@
             android:label="@string/title_activity_formulario" >
         </activity>
     </application>
-
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 </manifest>
